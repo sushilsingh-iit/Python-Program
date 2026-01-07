@@ -9,3 +9,4 @@ name ="sushil"
 age = 21
 price = 99
 print(age )
+print ("my name is : ", name)
