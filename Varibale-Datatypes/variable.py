@@ -34,3 +34,17 @@ print(name3)
 #NONE- VALUE EX 
 a = None
 print (type(a)) 
+
+
+#KEYWORDS - keywords are reserved word in python
+# note - python language is case senstive language
+
+#Ques - print sum 2 number 
+# a = 2 
+# b = 3 
+# sum(a+b)
+# print(sum)
+# """this is multilien comment """
+
+
+
