@@ -10,7 +10,14 @@
 
 
 #TYPE CASTING 
-a,b =1,"2"
-c = int(b)
-sum = (a + c)
-print(sum)
+# a,b =1,"2"
+# c = int(b)
+# sum = (a + c)
+# print(sum)
+
+
+a = 4 
+b = 1
+a = str(a)
+print (type(a))
+print (type(b))
