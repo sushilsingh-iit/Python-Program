@@ -18,3 +18,16 @@ movies.append (mov3)
 
 print(movies)
 print (type (movies))
+
+
+# WAP to check if a list containss a palindrome od element . (hint: use copy ()method )
+# [1,2,3,2,1]
+
+list = ["m", "a", "a", "m"]
+copy_list = list.copy()
+copy_list.reverse
+
+if (copy_list==list):
+    print("palindrome")
+else:
+    print("not palindrome ")
