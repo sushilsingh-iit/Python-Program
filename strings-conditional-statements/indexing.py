@@ -17,3 +17,15 @@ print (str[0])
 
 str1 = "sushilsingh"
 print(str1 [0:6])
+print(str1[0:])
+
+
+
+#SLICING IN NEGARTIVE 
+#SUSHIL 
+#-6-5-4-3-2-1
+# -1 not string not inculded
+
+
+str2 = "sushil"
+print(str2[-5:-1])
