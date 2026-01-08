@@ -33,3 +33,48 @@ if (num >2):
     print ("greater the 2")
 if (num > 3):
     print ("graeter than 3 ")
+
+
+
+
+
+
+light = "yellow"
+
+if light == "red":
+    print("danger")
+
+elif light == "green":   # CHANGE: 'if' became 'elif'
+    print("safe")
+
+elif light == "yellow":
+    print("run")
+
+else:
+    print("forget it is a bad dream")
+
+
+# anythin miss teminal show indentation error 
+# exaple : if (age >= 18 )
+# you are mis : last time 
+
+
+
+# grade stundent based on marks 
+
+
+garde = int(input("Enter your mark:"))
+if (garde >= 90):
+     print("yout are passed garde A")
+
+elif (garde >= 80):
+     print("yout are passed garde B")
+
+elif (garde >= 70):
+     print("yout are passed garde C")
+
+elif (garde >= 60):
+     print("yout are passed garde D")
+
+else:
+    print ("sorry try another field.")
