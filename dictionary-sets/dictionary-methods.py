@@ -18,7 +18,7 @@ student ={
 print(student.keys())
 print(student.values())
 
-# type ncast any other type 
+# type cast any other type 
 print(list(student.keys()))
 
 
