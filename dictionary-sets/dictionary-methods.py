@@ -22,4 +22,26 @@ print(student.values())
 print(list(student.keys()))
 
 
+print(student.items())
+
+
+
+# access pair 
+
+pairs = list(student.items())
+
+print(pairs[1])
+
+
+# myDit.get ,method 
+
+
+# print(student["name1"]) # error
+print(student.get("name1"))   # no Error 
+
+# update method 
+
+student.update({"location" : "Patna" , "village " : "surjanpur"})
+print(student)
+
 

@@ -18,3 +18,6 @@ print(student)
 #print only one value 
 
 print(student["subject"]["chemistry"])
+print(len(student.keys()))
+
+
