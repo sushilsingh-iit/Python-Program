@@ -19,7 +19,15 @@
 
 # sort form 
 
+# i = 1 
+# while i <=9:
+#     i += 1 
+#     print ("sushil")
+
+# print with iterator 
+
+
 i = 1 
-while i <=5 :
-    i += 1 
-    print ("sushil")
+while i <= 9:
+    i += 1
+    print ("sushil " , i )
