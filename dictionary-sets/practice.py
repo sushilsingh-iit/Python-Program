@@ -19,3 +19,13 @@ dict = {
 
 }
 print(dict)
+
+
+# you are given a list of subjects for stundent. Assume one classroom is required for 1 subject.
+# How many classroom are needed by all student.
+
+
+subject= {"python","java","c++","python","javascript","java","python","java","c++","c"}
+print(len(subject))
+
+# total number of classroom is 5 
