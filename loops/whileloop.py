@@ -29,5 +29,28 @@
 
 i = 1 
 while i <= 9:
-    i += 1
     print ("sushil " , i )
+    i += 1
+
+
+
+
+# i want to print nnumber from 1 to 5
+i = 1 
+while i<=5 :
+  print(i)
+  i += 1
+
+
+# print ("loop end ")
+
+
+
+# print reverse value 
+i = 5
+while i  >= 1:
+   print (i)
+   i -= 1
+
+
+print ("both loop end eneded")
