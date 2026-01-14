@@ -5,6 +5,10 @@ print(line )
 
 line2 = f.readline()
 print(line2)
+
+line4 = f.readline()
+print(line4)
+
 print(type(line))
 f.close()
 
