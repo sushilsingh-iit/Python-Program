@@ -12,4 +12,3 @@ with open("/home/rdx/Python-Programs/Python-Program/7.file-input-ouput/practice.
     f.write(new_data)
     print(new_data)
 
-# Question - search if the word "learning exists" in the file or not.
