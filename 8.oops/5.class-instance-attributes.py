@@ -13,4 +13,4 @@ class student:
 
 s1 = student ("sushil", 00)
 print(s1.name, s1.marks)
-        
+print(s1.collage_name)
