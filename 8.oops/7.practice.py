@@ -25,3 +25,6 @@ avg = (s1.marks + s2.marks + s3.marks) / 3
 
 print("Students:", s1.name, s2.name, s3.name)
 print("Average Marks:", avg)
+
+
+
