@@ -1,9 +1,8 @@
-#inheritance- when one class (child/derived) derives the properties & method of another
-#class (parent/base).
+#single inheritance- 
+#multi level inheritance
+#multiple inheritance
 
-#class car:
-# class toyota(car): # inheritance
-
+#single inheritance- 
 class car:
     color = "black"
     @staticmethod
@@ -24,6 +23,3 @@ car2 = toyotacar("legender")
 
 print(car1.start())
 print(car1.color)
-
-
-
