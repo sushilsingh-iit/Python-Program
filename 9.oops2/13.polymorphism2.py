@@ -10,18 +10,23 @@ class complex:
         newReal = self.real +num2.real
         newImg = self.img + num2.img
         return complex(newReal,newImg)
+    
+    def __sub__(self,num2):  # make dunder function
+        newReal = self.real - num2.real
+        newImg = self.img - num2.img
+        return complex(newReal,newImg)
+    
+    
 
 num1 = complex(1,2)
 num1.shownumber()
 
 num2 = complex(4,6)
 num2.shownumber()
-
-# num3 = num1.add(num2)       not use after dunder function 
-# num3.shownumber()        
+      
 
 num3 = num1 + num2
 num3.shownumber()
 
-
-
+num4 = num1 - num2 
+num4.shownumber()
