@@ -4,12 +4,12 @@ import qrcode as qr
 
 #create qr code image
 
-img = qr.make("sushil singh")
+img = qr.make("https://www.linkedin.com/in/sushilsingh-iit/?originalSubdomain=in")
 
 #save the image 
 
-img.save("name_qr.png")
-print("QR code saved as 'name_qr'")
+img.save("profile_qr.png")
+print("QR code saved as 'profile_qr'")
 
 
 
